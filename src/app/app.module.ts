@@ -6,6 +6,8 @@ import { PageProductListComponent } from './pages/product-list/product-list.comp
 import { MainRoutingModule } from './router/main.routing';
 import { RouterModule } from '@angular/router';
 import { PageMainComponent } from './pages/main/main.component';
+import { ProductModule } from './business/product/product.module';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 
@@ -16,10 +18,11 @@ import { PageMainComponent } from './pages/main/main.component';
     PageMainComponent
   ],
   imports: [
-    
     BrowserModule,
     MainRoutingModule,
-    RouterModule
+    RouterModule,
+    FontAwesomeModule,
+    ProductModule
   ],
   providers: [],
   bootstrap: [AppComponent]
