@@ -10,21 +10,24 @@ a{
 
 .box{
     width: 300px;
-    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
     border-radius: 10px;
     overflow: hidden;
+    margin: 10px;
+    padding: 0px;
 
 }
 
 .slide-img{
     height: 250px;
     position: relative;
+
 }
 
 .slide-img img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     box-sizing: border-box;
 }
 
@@ -44,21 +47,21 @@ a{
 }
 
 .type a{
-    color:red;
+    color: #0092c1;
     margin: 5px auto;
     font-weight: 700;
     letter-spacing: 0.5px;
     padding-right: 8px;
 }
 
-.text span{
+.type span{
     color:rgba(26,26,26,0.2)
 }
 
 .price{
-    color:rgba(206, 82, 82, 0.658);
-    font-weight: 600;
-    font-size: 1.1rem;
+    color: #0092c1;
+    font-weight: 700;
+    font-size: 1.5rem;
     letter-spacing: 0.5px;
 }
 
@@ -69,7 +72,7 @@ a{
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    background-color: rgba(92,95,236,0.6);
+    background-color:#0092c1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,4 +114,17 @@ a{
     100%{
         opacity: 1;
     }
+}
+
+.slider{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lSSlideOuter .lSPager.lSpg{
+    text-align: center !important;
+    display: none !important;
 }
