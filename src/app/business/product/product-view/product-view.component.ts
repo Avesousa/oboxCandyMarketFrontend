@@ -13,3 +13,4 @@ export class ProductViewComponent implements OnInit {
   }
 
 }
+
