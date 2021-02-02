@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare var $: any;
 
 @Component({
   selector: 'product-view',
@@ -10,7 +11,17 @@ export class ProductViewComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+
+    $(document).ready(function() {
+      $('#autoWidth').lightSlider({
+          autoWidth:true,
+          loop:true,
+          onSliderLoad: function() {
+              $('#autoWidth').removeClass('cS-hidden');
+          } 
+      });  
+    });
   }
 
+  
 }
-
