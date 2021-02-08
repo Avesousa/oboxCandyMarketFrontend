@@ -1,146 +1,23 @@
-
-
-<section class="slide">
-    <ul id="autoWidth" class="cs-hidden">
-
-        <!--1st slide-->
-        <li class="item-a">
-            <!--Slide-boxes-->
-            <div class="box">
-                <!--img-box-->
-                <div class="slide-img">
-                    <img src="https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/7/7/77903860_02.jpg"
-                        alt="img">
-
-                    <!--overlayer-->
-                    <div class="overlay">
-                        <!--buy-btn-->
-                        <a href="#" class="buy-btn">Buy Now</a>
-                    </div>
-                </div>
-                <!--detail-box-->
-                <div class="detail-box">
-                    <!--Type-->
-                    <div class="type">
-                        <a href="#">Terrabusi</a>
-                        <span>New Arrivals</span>
-                    </div>
-                    <!--price-->
-                    <a href="#" class="price">$50</a>
-                </div>
-            </div>
-        </li>
-
-        <!--2nd slide-->
-        <li class="item-a">
-            <!--Slide-boxes-->
-            <div class="box">
-                <!--img-box-->
-                <div class="slide-img">
-                    <img src="http://www.trt-trade.eu/uploads/_CGSmartImage/ferrero-rocher_1467368421-cca9cf866fb9bdf842241b499e3727fb.jpg"
-                        alt="img">
-
-                    <!--overlayer-->
-                    <div class="overlay">
-                        <!--buy-btn-->
-                        <a href="#" class="buy-btn">Buy Now</a>
-                    </div>
-                </div>
-                <!--detail-box-->
-                <div class="detail-box">
-                    <!--Type-->
-                    <div class="type">
-                        <a href="#">Terrabusi</a>
-                        <span>New Arrivals</span>
-                    </div>
-                    <!--price-->
-                    <a href="#" class="price">$50</a>
-                </div>
-            </div>
-        </li>
-
-        <!--3rd slide-->
-        <li class="item-a">
-            <!--Slide-boxes-->
-            <div class="box">
-                <!--img-box-->
-                <div class="slide-img">
-                    <img src="http://www.trt-trade.eu/uploads/_CGSmartImage/ferrero-rocher_1467368421-cca9cf866fb9bdf842241b499e3727fb.jpg"
-                        alt="img">
-
-                    <!--overlayer-->
-                    <div class="overlay">
-                        <!--buy-btn-->
-                        <a href="#" class="buy-btn">Buy Now</a>
-                    </div>
-                </div>
-                <!--detail-box-->
-                <div class="detail-box">
-                    <!--Type-->
-                    <div class="type">
-                        <a href="#">Terrabusi</a>
-                        <span>New Arrivals</span>
-                    </div>
-                    <!--price-->
-                    <a href="#" class="price">$50</a>
-                </div>
-            </div>
-        </li>
-
-        <!--4th slide-->
-        <li class="item-a">
-            <!--Slide-boxes-->
-            <div class="box">
-                <!--img-box-->
-                <div class="slide-img">
-                    <img src="http://www.trt-trade.eu/uploads/_CGSmartImage/ferrero-rocher_1467368421-cca9cf866fb9bdf842241b499e3727fb.jpg"
-                        alt="img">
-
-                    <!--overlayer-->
-                    <div class="overlay">
-                        <!--buy-btn-->
-                        <a href="#" class="buy-btn">Buy Now</a>
-                    </div>
-                </div>
-                <!--detail-box-->
-                <div class="detail-box">
-                    <!--Type-->
-                    <div class="type">
-                        <a href="#">Terrabusi</a>
-                        <span>New Arrivals</span>
-                    </div>
-                    <!--price-->
-                    <a href="#" class="price">$50</a>
-                </div>
-            </div>
-        </li>
-
-        <!--5th slide-->
-        <li class="item-a">
-            <!--Slide-boxes-->
-            <div class="box">
-                <!--img-box-->
-                <div class="slide-img">
-                    <img src="http://www.trt-trade.eu/uploads/_CGSmartImage/ferrero-rocher_1467368421-cca9cf866fb9bdf842241b499e3727fb.jpg"
-                        alt="img">
-
-                    <!--overlayer-->
-                    <div class="overlay">
-                        <!--buy-btn-->
-                        <a href="#" class="buy-btn">Buy Now</a>
-                    </div>
-                </div>
-                <!--detail-box-->
-                <div class="detail-box">
-                    <!--Type-->
-                    <div class="type">
-                        <a href="#">Terrabusi</a>
-                        <span>New Arrivals</span>
-                    </div>
-                    <!--price-->
-                    <a href="#" class="price">$50</a>
-                </div>
-            </div>
-        </li>
-    </ul>
-</section>
+<!--Slide-boxes-->
+<div class="box">
+    <!--img-box-->
+    <div class="slide-img">
+        <img [src]="product.img"
+            alt="img">
+        <!--overlayer-->
+        <div class="overlay">
+            <!--buy-btn-->
+            <a href="#" class="buy-btn">Buy Now</a>
+        </div>
+    </div>
+    <!--detail-box-->
+    <div class="detail-box">
+        <!--Type-->
+        <div class="type">
+            <a href="#">{{product.name}}</a>
+            <span>{{product.description}}</span>
+        </div>
+        <!--price-->
+        <a href="#" class="price">{{product.price}}</a>
+    </div>
+</div>

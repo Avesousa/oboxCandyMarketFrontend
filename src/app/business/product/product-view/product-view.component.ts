@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-declare var $: any;
+import { Component, Input, OnInit } from '@angular/core';
+import { Product } from '../product.model';
 
 @Component({
   selector: 'product-view',
@@ -8,20 +8,11 @@ declare var $: any;
 })
 export class ProductViewComponent implements OnInit {
 
+  @Input() product: Product;
+
   constructor() { }
 
-  ngOnInit(): void {
-
-    $(document).ready(function() {
-      $('#autoWidth').lightSlider({
-          autoWidth:true,
-          loop:true,
-          onSliderLoad: function() {
-              $('#autoWidth').removeClass('cS-hidden');
-          } 
-      });  
-    });
-  }
+  ngOnInit(): void {}
 
   
 }

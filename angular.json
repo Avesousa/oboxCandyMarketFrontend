@@ -128,5 +128,8 @@
       }
     }
   },
-  "defaultProject": "oboxCandyMarketFrontend"
+  "defaultProject": "oboxCandyMarketFrontend",
+  "cli": {
+    "analytics": "a0e00e0d-b20d-4e89-936f-6914447e137e"
+  }
 }
