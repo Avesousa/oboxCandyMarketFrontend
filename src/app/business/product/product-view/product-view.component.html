@@ -7,17 +7,18 @@
         <!--overlayer-->
         <div class="overlay">
             <!--buy-btn-->
-            <a href="#" class="buy-btn">Buy Now</a>
+            <!-- <a href="#" class="buy-btn">Compra ahora</a> -->
+            <span class="price">$ {{product.price}} </span><br>
+            <span class="perPrice">x und</span>
         </div>
     </div>
     <!--detail-box-->
     <div class="detail-box">
         <!--Type-->
         <div class="type">
-            <a href="#">{{product.name}}</a>
+            <a href="#">{{product.name.toUpperCase()}}</a>
             <span>{{product.description}}</span>
         </div>
         <!--price-->
-        <a href="#" class="price">{{product.price}}</a>
     </div>
 </div>

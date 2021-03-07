@@ -1,0 +1,40 @@
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+    transition: opacity .15s ease;
+    border: none;
+    height: 100%;
+}
+
+.carousel-item{
+    max-height: 60vh;
+    height: 100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 0;
+    left: unset;
+    padding-right: 2em;
+    padding-left: 5%;
+    color: #FBF5E8;
+    text-align: end;
+    background-color: #E25A53;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: padding 2s;
+}
+
+.carousel-caption:hover{
+    padding-left: 15%;
+}

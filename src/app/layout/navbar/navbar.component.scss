@@ -1,24 +1,19 @@
-nav{
-  width: 100%;
-  height: 75px;
-  background-color: lightgreen;
+.navbar{
+  // position: fixed;
 }
 
-//borrar la img cuando tenga el Png
 img{
   width: 150px;
   height: 150px;
-  border-radius: 90px;
+  display: block;
+  position: relative;
+  margin: 0 auto;
 }
 
 .navItems {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-
-.nav-item {
-  line-height: 8;
 }
 
 .logo {
@@ -28,6 +23,104 @@ img{
 }
 
 li > a.nav-link{
-  color: #000000;
   font-size: 1.10em;
+  font-weight: bold;
+  color: #E25A53;
+  transition: background-color 1s;
+  height: 100%;
+}
+
+li > a.nav-link-menu:hover{
+  color: #FBF5E8;
+  background: #E25A53;
+  height: 100%;
+}
+
+.toggler-icon{
+  display: block;
+  width: 1.5em;
+  height: .2em;
+  margin-bottom: .2em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  border-radius: 50px;
+}
+
+.toggler-icon:last-child{
+  margin-bottom: 0px;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media (max-width: 992px){
+
+  .viewLogoMovil{
+    display: inline-block;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  li > a.nav-link{
+    color: #FBF5E8;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    align-items: center;
+    width: 60%;
+    top: 6.5em;
+    z-index: 10;
+    background: #A4D9D6;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10px;
+  }
+
+  .nav-item-link:hover{
+    padding-left: .5em;
+    background-color: #E25A53;
+  }
+
+  .img-menu{
+    display: block;
+    padding: 1.5em;
+    border-radius: 10px;
+  }
+
+  .img-menu-dialog{
+    opacity: 0;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 5px;
+    transition: opacity 2s;
+  }
+
+  .img-menu .image-dialog:hover ~ .img-menu-dialog{
+    opacity: 1;
+  }
+
+}
+
+@media (min-width: 992px){
+
+  .viewLogoMovil{
+    display: none;
+  }
+
+  .logo{
+    display: inline-block;
+  }
+
+  .nav-item {
+    line-height: 8;
+  }
+  
+  .img-menu{
+    display: none;
+  }
+
 }

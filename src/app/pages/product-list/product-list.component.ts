@@ -51,6 +51,30 @@ export class PageProductListComponent implements OnInit {
         name:'Terrabusi',
         price: 20.40,
         img:'https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/7/7/77903860_02.jpg'
+      },
+      {
+        description:'Los mejores productos de terrabusi',
+        name:'Terrabusi',
+        price: 20404.49,
+        img:'https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/7/7/77903860_02.jpg'
+      },
+      {
+        description:'Los mejores productos de terrabusi',
+        name:'Terrabusi',
+        price: 20.40,
+        img:'https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/7/7/77903860_02.jpg'
+      },
+      {
+        description:'Los mejores productos de terrabusi',
+        name:'Terrabusi',
+        price: 20.40,
+        img:'https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/7/7/77903860_02.jpg'
+      },
+      {
+        description:'Los mejores productos de terrabusi',
+        name:'Terrabusi',
+        price: 20.40,
+        img:'https://supermercado.carrefour.com.ar/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/7/7/77903860_02.jpg'
       }
     ];
       

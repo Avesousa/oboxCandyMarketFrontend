@@ -37,8 +37,7 @@
 }
 
 .type a{
-    color: rgb(0,146,193);
-    margin: 5px auto;
+    color: #E25A53;
     font-weight: 700;
     letter-spacing: 0.5px;
     padding-right: 8px;
@@ -48,11 +47,17 @@
     color:rgba(26,26,26,0.2)
 }
 
+.perPrice{
+    font-size: .5em;
+    color: #fff;
+    letter-spacing: 0.5px;
+}
+
 .price{
-    color: #0092c1;
     font-weight: 700;
     font-size: 1.5rem;
     letter-spacing: 0.5px;
+    color: #FBF5E8;
 }
 
 .overlay{
@@ -62,10 +67,16 @@
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
-    background-color:rgba(0, 146, 193, 0.6);
+    background-color:rgba(226,90,83, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.overlay span{
+    text-shadow: 
+    1px 0px 12px rgba(0,0,0,0.75),
+    1px 0px 12px rgba(0,0,0,0.75);
 }
 
 .buy-btn{

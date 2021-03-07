@@ -1,3 +1,40 @@
+
 a{
     text-decoration: none;
 }
+
+
+.bg-candy-primary{
+    background: #E25A53;
+}
+.bg-candy-secondary{
+    background: #FDB35D;
+}
+.bg-candy-third{
+    background: #FBF5E8;
+}
+.bg-candy-fourth{
+    background: #A4D9D6;
+}
+
+
+.color-candy-primary{
+    color: #E25A53;
+}
+.color-candy-secondary{
+    color: #FDB35D;
+}
+.color-candy-third{
+    color: #FBF5E8;
+}
+.color-candy-third:hover{
+    color: #A4D9D6;
+}
+.color-candy-fourth{
+    color: #A4D9D6;
+}
+
+.src-only{
+    display: none;
+}
+

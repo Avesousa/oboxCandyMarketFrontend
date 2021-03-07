@@ -24,6 +24,9 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './layout/navbar/navbar.component';
+import { BrandComponent } from './layout/brand/brand.component';
+import { SliderMainComponent } from './layout/slider-main/slider-main.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 
 
@@ -37,6 +40,9 @@ import { NavbarComponent } from './layout/navbar/navbar.component';
     HeaderComponent,
     TopbarComponent,
     NavbarComponent,
+    BrandComponent,
+    SliderMainComponent,
+    FooterComponent,
 
   ],
   imports: [
