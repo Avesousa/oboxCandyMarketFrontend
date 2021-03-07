@@ -2,9 +2,9 @@ import { Component, Input, OnInit } from '@angular/core';
 import { Product } from '../product.model';
 
 @Component({
-  selector: 'product-view',
-  templateUrl: './product-view.component.html',
-  styleUrls: ['./product-view.component.css']
+  selector: 'product-card',
+  templateUrl: './product-card.component.html',
+  styleUrls: ['./product-card.component.css']
 })
 export class ProductViewComponent implements OnInit {
 

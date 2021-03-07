@@ -18,10 +18,7 @@ export class TopbarComponent implements OnInit {
     whatsapp: faWhatsapp,
     cart: faShoppingCart
   };
-
-
   
-
   constructor() {
 
   }

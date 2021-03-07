@@ -1,0 +1,119 @@
+/* .subscription{
+
+    height: 40vh;
+    font-size: 1.2em;
+    position: relative;
+}
+
+
+.input-group-text{
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.input-group{
+    right: 1em;
+}
+
+.input-group{
+    right: 1em;
+}
+
+label{
+    margin-right: 1.5em;
+    font-size: .8em;
+    font-weight: 600;
+    text-shadow: 0px 0px 14px rgba(0, 0, 0, 0.5);
+}
+
+.btn{
+    right: 1.2em;
+}
+
+.mail-subscription{
+    display: flex;
+    right: 0;
+    align-items: center;
+    height: 100%;
+}
+
+.huevo{
+    position: absolute;
+    left: 0;
+}
+
+.huevo-image{
+    
+}
+
+.huevo-dialog{
+    position: absolute;
+    top: 0;
+} */
+
+.subscription{
+    background-image: linear-gradient(rgba(226,90,83,.4),rgba(226,90,83,.4)), url("../../../assets/fondo_contacto.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding: 2em;
+}
+
+.huevo{
+    background-color: rgba(164,217,214,.8);
+    border-radius: 20px;
+    border: #FBF5E8 .5em solid;
+    text-align: center;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+    padding: 0 1em 1em 1em;
+}
+
+.huevo-dialog{
+    background-color: #FBF5E8;
+    margin: 0 auto;
+    padding: 1em;
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(0 0 0 / 20%);
+    opacity: 0;
+    transition: opacity 4s;
+    
+}
+
+.huevo-image{
+    margin-bottom: -2em;
+}
+
+.huevo img.huevo-image:hover ~ .huevo-dialog{
+    /* display: block; */
+    opacity: 1;
+}
+
+.subscription-mail{
+    width: 30%;
+    margin: 0 auto;
+    color: #FBF5E8;
+}
+
+.subscription-input{
+    box-shadow: 2px 2px 50px rgba(251,245,232,0.1);
+}
+
+.btn-subscription{
+    margin-top: .5em;
+}
+
+@media (max-width: 992px){
+    .subscription-mail{
+        width: 100%;
+    }
+
+    .huevo-dialog{
+        width: 100%;
+    }
+
+}

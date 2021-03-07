@@ -1,7 +1,8 @@
+<h2 class="title-product">Producto destacado</h2>
 <section class="slide">
     <ul id="autoWidth" class="cs-hidden">
         <li *ngFor="let product of products" class="item-a">
-            <product-view [product]="product"></product-view>
+            <product-card [product]="product"></product-card>
         </li>
     </ul>
 </section>
