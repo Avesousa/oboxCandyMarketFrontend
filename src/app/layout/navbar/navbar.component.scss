@@ -110,6 +110,20 @@ li > a.nav-link-menu:hover{
 
 }
 
+@media (max-width: 695px){
+  .navbar-collapse {
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    top: 6.5em;
+    left: 0;
+    z-index: 10;
+    background: #A4D9D6;
+    padding: 1em 1em 1em 1em;
+    border-radius: 10px;
+  }
+}
+
 @media (min-width: 992px){
 
   .viewLogoMovil{
